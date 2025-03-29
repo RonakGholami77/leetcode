@@ -27,7 +27,7 @@ function removeElement(nums: number[], val: number): number {
     right--;
   }
 
-  return left;
+  return left;  //numbers of elements that are not equal val
 }
 
 // const numbers = [1];
@@ -35,5 +35,5 @@ function removeElement(nums: number[], val: number): number {
 // console.log(numbers, k1);
 
 const nums = [1, 2, 3, 4, 5, 6, 7, 3, 9];
-const k1 = removeElement(nums, 3);
-console.log(nums, k1);
+const k1 = 3;
+console.log(removeElement(nums, k1));
