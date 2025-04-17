@@ -26,6 +26,7 @@
     "typescript": "^5.8.2"
   },
   "dependencies": {
+    "@datastructures-js/priority-queue": "^6.3.2",
     "esm": "^3.2.25",
     "rimraf": "^5.0.10"
   }
